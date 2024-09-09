@@ -30,7 +30,7 @@ const navigation = [
 	{ title: "Address", url: "/address" },
 ];
 const App = () => {
-	const [title, setTitle] = useState();
+	const [title, setTitle] = useState("");
 	const [navLocation, setNavLocation] = useState([]);
 	const [navigationState, setNavigation] = useState(navigation);
 

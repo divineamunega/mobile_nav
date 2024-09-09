@@ -44,7 +44,7 @@ const App = () => {
 		if (navLocation.length > 0) {
 			let tempNav = navigation;
 			let currentTitle;
-			navLocation.forEach((el, i) => {
+			navLocation.forEach((el) => {
 				currentTitle = tempNav[el].title;
 				tempNav = tempNav[el].children;
 			});
